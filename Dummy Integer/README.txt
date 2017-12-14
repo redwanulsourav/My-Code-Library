@@ -1,0 +1,3 @@
+Sometimes, we need to be able to store integers values that are greater than the maximum value of long long int but less than unsigned long long int. But with this also, we want to handle negative numbers having the same magnitude range. This library has a class name dummy_int which serves the purpose.
+
+Reminder: Make sure that the magnitude does the exceed the value of maximum magnitude that an unsigned long long int can have. Also, the divison operator / is not complete.
